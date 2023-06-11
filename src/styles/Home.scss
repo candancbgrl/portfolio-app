@@ -1,0 +1,13 @@
+.myComponent {
+    margin-left: 0;
+    margin-top: 0;
+    
+    @media (min-width: 1280px) {
+      margin-left: 10px;
+    }
+    
+    @media (min-width: 960px) {
+      margin-top: 5px;
+    }
+  }
+//sx={{ display: { xs: 'none', sm: 'flex', justifyContent: 'flex-end', flexGrow: 1, } }}
