@@ -5,7 +5,6 @@ import WorkPage from './components/Work/WorkPage'
 import { WorkDetailPage } from './components/Work/WorkDetailPage'
 import { DataContextProvider } from './navigation/DataContext';
 
-
 const App = () => (
   <DataContextProvider>
     <Router>
